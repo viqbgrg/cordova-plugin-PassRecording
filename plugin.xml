@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="cordova-plugin-PassRecording" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>
+		cordova-plugin-PassRecording
+	</name>
+	<description>
+		Cordova plugin that for Pass Recording.
+	</description>
+	<license>
+		Apache 2.0
+	</license>
+	<keywords>
+		cordova,phonegap,Pass Recording,custom
+	</keywords>
+	<js-module name="PassRecording" src="www/PassRecording.js">
+		<clobbers target="PassRecording" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="PassRecording">
+				<param name="ios-package" onload="true" value="PassRecording" />
+			</feature>
+		</config-file>
+		<header-file src="src/ios/PassRecording.h" />
+		<source-file src="src/ios/PassRecording.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecordButton.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecordButton.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecorderTool.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecorderTool.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecordHeaderDefine.h" />
+		<header-file src="src/ios/MOKORecord/MOKORecordPowerAnimationView.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecordPowerAnimationView.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecordShowManager.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecordShowManager.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecordToastContentView.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecordToastContentView.m" />
+		<header-file src="src/ios/MOKORecord/MOKORecordView.h" />
+		<source-file src="src/ios/MOKORecord/MOKORecordView.m" />
+		<header-file src="src/ios/MOKORecord/FileUtils.h" />
+		<source-file src="src/ios/MOKORecord/FileUtils.m" />
+	</platform>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="PassRecording">
+				<param name="android-package" value="cordova.plugin.PassRecording.PassRecording" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+		</config-file>
+		<source-file src="src/android/PassRecording.java" target-dir="src/cordova/plugin/PassRecording" />
+		<source-file src="src/android/ExampleActivity.java" target-dir="src/cordova/plugin/PassRecording/example" />
+		<source-file src="src/android/DBHelper.java" target-dir="src/cordova/plugin/PassRecording/history" />
+		<source-file src="src/android/AudioManager.java" target-dir="src/cordova/plugin/PassRecording/manager" />
+		<source-file src="src/android/AudioRecordButton.java" target-dir="src/cordova/plugin/PassRecording/manager" />
+		<source-file src="src/android/DialogManager.java" target-dir="src/cordova/plugin/PassRecording/manager" />
+		<source-file src="src/android/MediaManager.java" target-dir="src/cordova/plugin/PassRecording/manager" />
+		<source-file src="src/android/CommonsUtils.java" target-dir="src/cordova/plugin/PassRecording/utils" />
+		<source-file src="src/android/Constant.java" target-dir="src/cordova/plugin/PassRecording/utils" />
+		<source-file src="src/android/FileUtils.java" target-dir="src/cordova/plugin/PassRecording/utils" />
+		<source-file src="src/android/PermissionHelper.java" target-dir="src/cordova/plugin/PassRecording/utils" />
+		<source-file src="src/android/yuyin_voice_1.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_voice_2.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_voice_3.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_voice_4.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_voice_5.png" target-dir="res/drawable" />
+		<source-file src="src/android/fabuxuanshang_yuyin_def.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_cancel.png" target-dir="res/drawable" />
+		<source-file src="src/android/yuyin_gantanhao.png" target-dir="res/drawable" />
+		<source-file src="src/android/activity_example.xml" target-dir="res/layout" />
+		<source-file src="src/android/dialog_manager.xml" target-dir="res/layout"/>
+		</platform>
+</plugin>
