@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.dias.wyl.R;
+import com.ruopet.ruopetapp.R;
 
 
 public class DialogManager {

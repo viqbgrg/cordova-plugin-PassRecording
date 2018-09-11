@@ -10,7 +10,7 @@ import android.view.MotionEvent;
 import android.widget.Button;
 
 
-import com.dias.wyl.R;
+import com.ruopet.ruopetapp.R;
 
 import cordova.plugin.PassRecording.utils.FileUtils;
 
