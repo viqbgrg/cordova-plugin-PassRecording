@@ -70,6 +70,7 @@
 		<resource-file src="src/android/dialog_manager.xml" target="res/layout/dialog_manager.xml"/>
 		<resource-file src="src/android/styles.xml" target="res/values/styles.xml"/>
 		<resource-file src="src/android/colors.xml" target="res/values/colors.xml"/>
+		<resource-file src="src/android/strings1.xml" target="res/values/strings1.xml"/>
 		<framework src="com.android.support:support-v4:25.+" />
 		<framework src="com.android.support:appcompat-v7:25.+" />
 		</platform>
