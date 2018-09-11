@@ -58,15 +58,15 @@
 		<source-file src="src/android/Constant.java" target-dir="src/cordova/plugin/PassRecording/utils" />
 		<source-file src="src/android/FileUtils.java" target-dir="src/cordova/plugin/PassRecording/utils" />
 		<source-file src="src/android/PermissionHelper.java" target-dir="src/cordova/plugin/PassRecording/utils" />
-		<source-file src="src/android/yuyin_voice_1.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_voice_2.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_voice_3.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_voice_4.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_voice_5.png" target-dir="res/drawable" />
-		<source-file src="src/android/fabuxuanshang_yuyin_def.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_cancel.png" target-dir="res/drawable" />
-		<source-file src="src/android/yuyin_gantanhao.png" target-dir="res/drawable" />
-		<source-file src="src/android/activity_example.xml" target-dir="res/layout" />
+		<source-file src="src/android/yuyin_voice_1.png" target="res/drawable/yuyin_voice_1.png" />
+		<source-file src="src/android/yuyin_voice_2.png" target="res/drawable/yuyin_voice_2.png" />
+		<source-file src="src/android/yuyin_voice_3.png" target="res/drawable/yuyin_voice_3.png" />
+		<source-file src="src/android/yuyin_voice_4.png" target="res/drawable/yuyin_voice_4.png" />
+		<source-file src="src/android/yuyin_voice_5.png" target="res/drawable/yuyin_voice_5.png" />
+		<source-file src="src/android/fabuxuanshang_yuyin_def.png" target="res/drawable/fabuxuanshang_yuyin_def.png" />
+		<source-file src="src/android/yuyin_cancel.png" target="res/drawable/yuyin_cancel.png" />
+		<source-file src="src/android/yuyin_gantanhao.png" target="res/drawable/yuyin_gantanhao.png" />
+		<source-file src="src/android/activity_example.xml" target="res/layout/activity_example.xml" />
 		<source-file src="src/android/dialog_manager.xml" target="res/layout/dialog_manager.xml"/>
 		</platform>
 </plugin>
