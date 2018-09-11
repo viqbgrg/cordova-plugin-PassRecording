@@ -12,7 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.dias.wyl.R;
+import com.ruopet.ruopetapp.R;
 
 //import cordova.plugin.PassRecording.history.DBManager;
 import cordova.plugin.PassRecording.manager.AudioRecordButton;
