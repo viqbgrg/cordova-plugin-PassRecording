@@ -68,5 +68,6 @@
 		<resource-file src="src/android/yuyin_gantanhao.png" target="res/drawable/yuyin_gantanhao.png" />
 		<resource-file src="src/android/activity_example.xml" target="res/layout/activity_example.xml" />
 		<resource-file src="src/android/dialog_manager.xml" target="res/layout/dialog_manager.xml"/>
+		<framework src="com.android.support:support-v4:24.2.0" />
 		</platform>
 </plugin>
